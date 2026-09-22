@@ -1,34 +1,6 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="loki-checkout.shipping.address.street0">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">Address</argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.street1">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">Apartment, suite, etc (optional)</argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.postcode">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">Postal code</argument>
-                <argument name="placeholder" xsi:type="string">A1A 1A1</argument>
-                <argument name="field_attributes" xsi:type="array">
-                    <item name="x-mask" xsi:type="string">a9a 9a9</item>
-                </argument>
-            </arguments>
-        </referenceBlock>
-
-        <referenceBlock name="loki-checkout.shipping.address.region">
-            <arguments>
-                <argument name="field_label" xsi:type="string" translate="true">Province</argument>
-            </arguments>
-        </referenceBlock>
-
         <referenceBlock name="loki-checkout.billing.address.street0">
             <arguments>
                 <argument name="field_label" xsi:type="string" translate="true">Address</argument>
